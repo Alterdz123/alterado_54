@@ -14,7 +14,7 @@ class _NotifPageState extends State<NotifPage> {
       appBar: AppBar(
         title: Text("Notifications", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35,),),
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+          IconButton(onPressed: () {}, icon: Icon(Icons.search_rounded)),
           IconButton(onPressed: () {}, icon: Icon(Icons.menu_rounded)),
         ],
       ),
